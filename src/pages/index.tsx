@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { useEffect, useState } from 'react'
 import { Label, Labels } from '../components/Labels'
-import { octokit } from './utils/octokit'
+import { octokit } from '../utils/octokit'
 import { LineChart, Line, XAxis, YAxis, Tooltip, Legend } from 'recharts'
 import { DateTime } from 'luxon'
 
