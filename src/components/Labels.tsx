@@ -1,5 +1,5 @@
 import { FC, ReactNode, useEffect, useState } from 'react'
-import { octokit } from '../utils/octokit'
+import { octokit } from '../pages/utils/octokit'
 import { Label } from './Label'
 
 export type Label = {
